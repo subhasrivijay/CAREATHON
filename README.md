@@ -12,10 +12,8 @@ This tool enables people with speech and hearing impairments to engage in conver
 
 ## Install Instructions
 
-1. Clone the repo:
-```bash
-git clone https://github.com/yourusername/speech-text-app.git
-cd speech-text-app
+- Clone the repo
+- Click on the main file in the dist folder to launch the api
 
 
 
