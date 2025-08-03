@@ -79,8 +79,6 @@ def speech_to_text():
             messagebox.showinfo("Result", f"Recognized Text ({spoken_lang.capitalize()}):\n{recognized_text}\n\nTranslated Text ({output_lang.capitalize()}):\n{translated_text}")
 
             tts = gTTS(text=translated_text, lang=output_lang_code, slow=False)
-            tts.save("speech_output.mp3")
-            playsound("speech_output.mp3")
 
     except Exception as e:
         messagebox.showerror("Speech Error", str(e))
